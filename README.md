@@ -101,7 +101,7 @@ Set CSS custom properties on a parent element or globally:
 }
 ~~~
 
-See [component details](docs/components.md) for inputs and behavior.
+See the [documentation index](docs/README.md) for component details, validation, theming, accessibility, and a standalone interaction reference.
 
 ## Project layout
 
@@ -109,7 +109,7 @@ See [component details](docs/components.md) for inputs and behavior.
 projects/
   mofal-form/     Angular library and public API
   demo/           Showcase app with a local form flow
-docs/             Preview and component documentation
+docs/             Preview, guides, and interaction reference
 .github/workflows Continuous build
 ~~~
 
