@@ -1,0 +1,17 @@
+{
+  "name": "mofal-form",
+  "version": "0.1.0",
+  "description": "Thoughtful, themeable form components for Angular.",
+  "license": "MIT",
+  "keywords": ["angular", "forms", "components", "ui", "control-value-accessor"],
+  "repository": { "type": "git", "url": "https://github.com/Goilder/mofal-form.git" },
+  "peerDependencies": {
+    "@angular/common": "^21.2.0",
+    "@angular/core": "^21.2.0",
+    "@angular/forms": "^21.2.0"
+  },
+  "dependencies": {
+    "tslib": "^2.3.0"
+  },
+  "sideEffects": false
+}

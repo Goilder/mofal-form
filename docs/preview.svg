@@ -1,0 +1,30 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="690" viewBox="0 0 1200 690" role="img" aria-labelledby="title desc">
+<title id="title">Mofal Form demo preview</title><desc id="desc">A landing page with a contact form and feature cards.</desc>
+<defs><linearGradient id="glow" x2="1" y2="1"><stop stop-color="#efebff"/><stop offset="1" stop-color="#fbfbfe"/></linearGradient><filter id="shadow"><feDropShadow dx="0" dy="18" stdDeviation="20" flood-color="#253052" flood-opacity=".1"/></filter></defs>
+<rect width="1200" height="690" rx="22" fill="#fbfbfe"/>
+<rect x="0" y="0" width="1200" height="76" rx="22" fill="#fff"/><path d="M0 55h1200v21H0z" fill="#fff"/>
+<rect x="54" y="20" width="36" height="36" rx="10" fill="#7059e8"/><text x="61" y="45" fill="#fff" font-family="Arial,sans-serif" font-size="24" font-weight="700">m.</text>
+<text x="101" y="45" fill="#1d2540" font-family="Arial,sans-serif" font-size="18" font-weight="700">Mofal Form</text>
+<text x="855" y="43" fill="#64718c" font-family="Arial,sans-serif" font-size="13">Components</text><text x="961" y="43" fill="#64718c" font-family="Arial,sans-serif" font-size="13">Quick start</text><text x="1062" y="43" fill="#64718c" font-family="Arial,sans-serif" font-size="13">GitHub ↗</text>
+<rect x="52" y="139" width="192" height="27" rx="13" fill="#f3efff" stroke="#e7dfff"/><circle cx="68" cy="152" r="4" fill="#7059e8"/><text x="80" y="156" fill="#7059e8" font-family="Arial,sans-serif" font-weight="700" font-size="10" letter-spacing="1">ANGULAR FORM COMPONENTS</text>
+<text x="52" y="245" fill="#1d2540" font-family="Arial,sans-serif" font-weight="700" font-size="64" letter-spacing="-4">Forms that feel</text>
+<text x="52" y="309" fill="#7059e8" font-family="Arial,sans-serif" font-weight="700" font-size="64" letter-spacing="-4">effortless.</text>
+<text x="54" y="353" fill="#72809a" font-family="Arial,sans-serif" font-size="16">A small, thoughtful component library for creating</text>
+<text x="54" y="376" fill="#72809a" font-family="Arial,sans-serif" font-size="16">clean forms in Angular.</text>
+<rect x="54" y="408" width="140" height="44" rx="10" fill="#7059e8"/><text x="75" y="435" fill="#fff" font-family="Arial,sans-serif" font-weight="700" font-size="13">Get started  →</text><text x="213" y="435" fill="#39435d" font-family="Arial,sans-serif" font-weight="700" font-size="13">Explore components ↗</text>
+<ellipse cx="881" cy="318" rx="282" ry="245" fill="url(#glow)"/>
+<g filter="url(#shadow)"><rect x="614" y="100" width="529" height="455" rx="23" fill="#fff" stroke="#e8eaf1"/></g>
+<text x="649" y="145" fill="#7059e8" font-family="Arial,sans-serif" font-weight="700" font-size="10" letter-spacing="2">GET IN TOUCH</text>
+<text x="649" y="184" fill="#1d2540" font-family="Arial,sans-serif" font-weight="700" font-size="29" letter-spacing="-1">Let's make something great</text>
+<text x="649" y="210" fill="#8994a8" font-family="Arial,sans-serif" font-size="13">Fill in the details and we'll be in touch soon.</text>
+<text x="649" y="251" fill="#303a54" font-family="Arial,sans-serif" font-weight="700" font-size="12">Your name *</text><text x="892" y="251" fill="#303a54" font-family="Arial,sans-serif" font-weight="700" font-size="12">Email address *</text>
+<rect x="649" y="262" width="224" height="44" rx="10" fill="#fafbff" stroke="#e1e5ee"/><rect x="891" y="262" width="218" height="44" rx="10" fill="#fafbff" stroke="#e1e5ee"/>
+<text x="662" y="288" fill="#abb4c4" font-family="Arial,sans-serif" font-size="12">Alex Morgan</text><text x="904" y="288" fill="#abb4c4" font-family="Arial,sans-serif" font-size="12">alex@example.com</text>
+<text x="649" y="345" fill="#303a54" font-family="Arial,sans-serif" font-weight="700" font-size="12">Your message *</text><rect x="649" y="357" width="460" height="88" rx="10" fill="#fafbff" stroke="#e1e5ee"/><text x="662" y="382" fill="#abb4c4" font-family="Arial,sans-serif" font-size="12">Tell us a little about your project...</text>
+<rect x="649" y="463" width="460" height="47" rx="10" fill="#7059e8"/><text x="819" y="492" fill="#fff" font-family="Arial,sans-serif" font-weight="700" font-size="13">Send message  →</text>
+<text x="784" y="530" fill="#a2abbb" font-family="Arial,sans-serif" font-size="11">Simple by design. Styled to feel right.</text>
+<rect x="74" y="522" width="150" height="36" rx="12" fill="#fff" stroke="#e7e8ef"/><text x="91" y="545" fill="#7059e8" font-family="Arial,sans-serif" font-weight="700" font-size="12">✦</text><text x="113" y="545" fill="#39435d" font-family="Arial,sans-serif" font-weight="700" font-size="11">Form-ready</text>
+<line x1="54" y1="597" x2="1146" y2="597" stroke="#e8eaf1"/>
+<g font-family="Arial,sans-serif"><text x="54" y="633" fill="#1d2540" font-weight="700" font-size="15">◫  Flexible fields</text><text x="436" y="633" fill="#1d2540" font-weight="700" font-size="15">◇  Composable layout</text><text x="830" y="633" fill="#1d2540" font-weight="700" font-size="15">↗  Easy theming</text><text x="54" y="657" fill="#8792a6" font-size="12">Inputs, textareas, hints, and errors</text><text x="436" y="657" fill="#8792a6" font-size="12">Build the form you need</text><text x="830" y="657" fill="#8792a6" font-size="12">CSS variables for your brand</text></g>
+</svg>
+

@@ -1,0 +1,61 @@
+<div class="site-shell">
+  <header class="site-header">
+    <a class="brand" href="#top" aria-label="Mofal Form home"><span class="brand-mark">m<span>.</span></span><span>Mofal <strong>Form</strong></span></a>
+    <nav aria-label="Main navigation"><a href="#components">Components</a><a href="#quickstart">Quick start</a><a href="https://github.com/Goilder/mofal-form">GitHub ↗</a></nav>
+  </header>
+
+  <main id="top">
+    <section class="hero">
+      <div class="hero-copy">
+        <div class="badge"><span class="badge-dot"></span> ANGULAR FORM COMPONENTS</div>
+        <h1>Forms that feel<br /><em>effortless.</em></h1>
+        <p class="hero-lead">A small, thoughtful component library for creating clean forms in Angular. Compose fields, add validation, and make every interaction feel polished.</p>
+        <div class="hero-actions"><a class="primary-link" href="#quickstart">Get started <span>→</span></a><a class="secondary-link" href="#components">Explore components ↗</a></div>
+        <div class="hero-proof"><span class="avatar-stack"><i>MF</i><i>UI</i><i>NG</i></span><span>Built for the forms you ship every day</span></div>
+      </div>
+      <div class="hero-demo">
+        <div class="demo-glow"></div>
+        <mf-form-card eyebrow="GET IN TOUCH" title="Let's make something great" description="Fill in the details and we'll be in touch soon.">
+          @if (success()) {
+            <div class="success" role="status"><span>✓</span><strong>Looking good!</strong><p>The local demo accepted your form. Connect your own API to handle submissions.</p></div>
+          } @else {
+            <form [formGroup]="form" (ngSubmit)="submit()" novalidate>
+              <div class="fields-row">
+                <mf-field name="name" label="Your name" placeholder="Alex Morgan" autocomplete="name" [required]="true" formControlName="name" [error]="submitted() && form.controls.name.invalid ? 'Please enter your name.' : ''" />
+                <mf-field name="email" label="Email address" type="email" placeholder="alex@example.com" autocomplete="email" [required]="true" formControlName="email" [error]="submitted() && form.controls.email.invalid ? 'Enter a valid email address.' : ''" />
+              </div>
+              <mf-field name="message" label="Your message" placeholder="Tell us a little about your project..." [required]="true" [multiline]="true" formControlName="message" [error]="submitted() && form.controls.message.invalid ? 'Please add a message.' : ''" />
+              <mf-button>Send message</mf-button>
+              <p class="form-note">Simple by design. Styled to feel right.</p>
+            </form>
+          }
+        </mf-form-card>
+        <div class="floating-pill pill-top"><span>✦</span> Form-ready</div>
+        <div class="floating-pill pill-bottom"><span>✓</span> Angular 21</div>
+      </div>
+    </section>
+
+    <section id="components" class="features">
+      <div class="section-heading"><span>THE BUILDING BLOCKS</span><h2>Everything you need.<br />Nothing you don't.</h2></div>
+      <div class="feature-grid">
+        <article><div class="feature-icon">◫</div><h3>Flexible fields</h3><p>Inputs and textareas with labels, helper text, validation states, and Angular Forms integration.</p></article>
+        <article><div class="feature-icon">◇</div><h3>Composable layout</h3><p>A clean card surface that lets you arrange form controls exactly the way your project needs.</p></article>
+        <article><div class="feature-icon">↗</div><h3>Easy theming</h3><p>CSS variables make colors, typography, borders, and surfaces feel like your own brand.</p></article>
+      </div>
+    </section>
+
+    <section id="quickstart" class="quickstart">
+      <div><span class="eyebrow">START HERE</span><h2>From zero to a<br />beautiful form.</h2><p>Build the library, add the components, and customize with a handful of CSS variables.</p></div>
+      <div class="code-card"><div class="code-header"><span><i></i><i></i><i></i></span> QUICK START</div><pre><code>npm install
+npm run build:lib
+npm start
+
+&lt;mf-form-card title="Get in touch"&gt;
+  &lt;mf-field name="email" label="Email" /&gt;
+  &lt;mf-button&gt;Send message&lt;/mf-button&gt;
+&lt;/mf-form-card&gt;</code></pre></div>
+    </section>
+  </main>
+  <footer><span class="brand"><span class="brand-mark">m<span>.</span></span><span>Mofal <strong>Form</strong></span></span><span>Thoughtful forms for Angular.</span><span>© 2026 Mofal Form</span></footer>
+</div>
+
